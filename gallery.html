@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Кометон</title>
+    <link rel="icon" type="image/png" href="img/comet.png">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="index.html">
+            <img class="banner" src="img/comet.png" alt="Изображение не загружено" width="128px" height="128px">
+            </a>
+            <h1 class="title">Астероиды и кометы</h1>
+        </div>
+    </header>
+<main>
+        <!-- Container for the image gallery -->
+    <div class="container" id="Topic__Gallery">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="img/cometleo.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="img/comet3.jpeg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="img/meteor3.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="img/meteor4.jpg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="img/asteroidpsihea.jpeg" style="width:100%">
+        </div>
+    
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="img/asteroid3.jpg" style="width:100%">
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+    
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="img/cometleo.jpg" style="width:100%" onclick="currentSlide(1)" alt="Комета Леонардо">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/comet3.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Комета">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/meteor3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Челябинский метеорит">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/meteor4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Метеорит">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/asteroidpsihea.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Астероид Психея">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/asteroid3.jpg" style="width:100%" onclick="currentSlide(6)" alt="Астероид">
+          </div>
+        </div>
+    </div>
+</main>
+    <footer id="footer-main">
+        <div class="footer-grid">
+         
+            <div>
+                <h4 class="footer-h">О сайте</h4>
+                <p>Сайт сделан по заказу РТУ МИРЭА учеником группы ИКБО-13-21 Субботиным Д.Д.</p>
+            </div>
+      
+             <div>
+                <h4 class="footer-h">Быстрые ссылки</h4>
+                <p><a href="index.html">Дом</a></p>
+                <p><a href="asteroid.html">Астероиды</a></p>
+                <p><a href="comet.html">Кометы</a></p>
+                <p><a href="meteor.html">Метеориты</a></p>
+                <p><a href="gallery.html">Галерея</a></p>
+            </div>
+      
+            <div>
+                <h4 class="footer-h">Контактная информация</h4>
+                <p>ул.Вернадская, д.78, корпус 1</p>
+                <p>+1 234 567-89-0</p>
+                <p>+2 345 678-90-1</p>
+                <p>example@mail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="js/gallery.js"></script>
+</html>
