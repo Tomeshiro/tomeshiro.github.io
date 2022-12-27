@@ -226,4 +226,5 @@ main > p {
       text-align: center;
       margin: 0 auto;
       max-width: 100%;
+      justify-content: space-between;
   }
